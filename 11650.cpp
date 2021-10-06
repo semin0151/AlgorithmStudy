@@ -18,6 +18,7 @@ int n;
 
 int main() {
 	cin >> n;
+
 	for (int i = 0; i < n; i++) {
 		int x, y;
 		cin >> x >> y;
@@ -25,7 +26,9 @@ int main() {
 	}
 	sort(arr.begin(), arr.end(), cmp);
 
-	for (int i = 0; i < n; i++) cout << arr[i].x << " " << arr[i].y << "\n";
+	for (int i = 0; i < n; i++){
+        cout << arr[i].x << " " << arr[i].y << "\n";
+    } 
 	
 	return 0;
 }
