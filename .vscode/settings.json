@@ -8,6 +8,9 @@
         "ostream": "cpp",
         "deque": "cpp",
         "xiosbase": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "stack": "cpp",
+        "xtree": "cpp",
+        "utility": "cpp"
     }
 }
