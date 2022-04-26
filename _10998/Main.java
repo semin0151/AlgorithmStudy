@@ -2,10 +2,11 @@ package _10998;
 import java.util.*;
 
 public class Main {
+    static Scanner sc = new Scanner(System.in);
+    static int a = sc.nextInt();
+    static int b = sc.nextInt();
+    
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
         System.out.print(a*b);
     }
 }
