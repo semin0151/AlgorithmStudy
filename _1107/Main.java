@@ -37,6 +37,8 @@ public class Main {
     }
     
     public static boolean checkNum(int num){
+        if(num==0 && arr[0]) return false;
+        
         while(num>0){
             if(arr[num%10]) return false;
             num/=10;
