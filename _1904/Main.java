@@ -17,10 +17,6 @@ public class Main {
     }
 
     public static int fibo(int n){
-        // 1
-        // 00 11
-        // 100 001 111
-        // 1100 1001 0011 1111 0000
         if(arr[n] != 0) return arr[n];
         if(n <= 2 ) return n;
         else return arr[n] = (fibo(n-1) + fibo(n-2))%15746;
